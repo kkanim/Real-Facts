@@ -35,6 +35,9 @@ span {
 }
 
 main {
+    background-image: url(../images/reactjs-icon\ 2.png);
+    background-repeat: no-repeat;
+    background-position: right;
     padding: 60px 30px;
 }
 
@@ -54,4 +57,9 @@ h1{
     padding-block: 10px;
     line-height: 19px;
     color: #FFFFFF;
+}
+
+.facts-list > li::marker {
+    color: #61DAFB;
+    font-size: 1.5rem;
 }
